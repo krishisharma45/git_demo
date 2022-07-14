@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 
 
-class EmployeeModel(BaseModel):
+class PatientModel(BaseModel):
     name: str
     age: int
-    title: str
-    salary: int
+    doctor: str
+    diagnosis: int
