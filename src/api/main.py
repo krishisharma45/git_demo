@@ -30,3 +30,13 @@ def predictions():
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e)
         )
+
+
+@app.post("/patients/")
+def create_employee(patient: PatientModel):
+    try:
+        return "Created patient!"
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e)
+        )
