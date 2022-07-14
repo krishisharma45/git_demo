@@ -1,0 +1,47 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# Environments
+.venv
+venv/
+env.bak/
+venv.bak/
+
+# macOS
+**/*.DS_Store
+
+# Visual Studio Code
+.vscode
+
+# Temporary directories
+logs/
+tmp/
+
+# Jetbrains Tools
+.idea
+
+# Credentials
+**/*.env
+
+# ML-specific
+**/lightning_logs/
+mlruns/

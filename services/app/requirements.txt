@@ -1,0 +1,13 @@
+coverage==5.5
+fastapi==0.70.0
+flake8==3.9.1
+gunicorn==20.1.0
+jupyterlab==3.2.9
+jupyter==1.0.0
+mlflow==1.19.0
+pydantic==1.8.2
+pylint==2.11.1
+pytest==6.2.3
+uvicorn==0.15.0
+
+
