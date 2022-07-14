@@ -33,7 +33,7 @@ def predictions():
 
 
 @app.post("/patients/")
-def create_employee(patient: PatientModel):
+def create_patient(patient: PatientModel):
     try:
         return "Created patient!"
     except Exception as e:
