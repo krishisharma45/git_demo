@@ -45,6 +45,3 @@ tmp/
 # ML-specific
 **/lightning_logs/
 mlruns/
-
-
-secret_keys.json
