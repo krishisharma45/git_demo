@@ -45,5 +45,3 @@ tmp/
 # ML-specific
 **/lightning_logs/
 mlruns/
-
-hello
